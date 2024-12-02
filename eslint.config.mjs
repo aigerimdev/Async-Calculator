@@ -41,6 +41,8 @@ export default [
       "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
       "padded-blocks": ["error", "never"],
       "no-var": "error",
+      "promise/catch-or-return": "off",
+      "promise/always-return": "off"
     },
   },
 ];
