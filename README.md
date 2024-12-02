@@ -1,20 +1,14 @@
-# JavaScript REPL
+# Composing Async Functions
 
-A project providing a basic JavaScript REPL (Read-Eval-Print Loop) for local development.
+Activity for Calling APIs Asynchronously
 
-## One-Time Setup
+## Setup
 
-1. Ensure that node has been installed as outlined in JavaScript, Cont., Writing JavaScript Locally.
-   
-   ```bash
-   $ brew install node
-   ```
+1. Fork and clone this project.
 
-2. Fork and clone this project.
+2. In your terminal, navigate to the project directory.
 
-3. In your terminal, navigate to the project directory.
-
-4. Install the project dependencies.
+3. Install the project dependencies.
 
    ```bash
    $ npm install
@@ -59,18 +53,6 @@ $ npm run lint
 ```
 
 ESLint warnings can be shown in VS Code by installing the **ESLint** extension.
-
-## Tests
-
-A simple example test is provided in the `src/math.test.js` file, which tests a function defined in `src/math.js`. To run the test, use the following command:
-
-```bash
-$ npm test
-```
-
-Tests can be discovered by VS Code by installing the **Jest** extension.
-
-Tests will be covered in more detail in Unit 3, Tests
 
 ## Additional files
 
